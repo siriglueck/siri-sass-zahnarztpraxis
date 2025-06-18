@@ -1,0 +1,26 @@
+{
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      /**
+      * "savePath"
+      * Beginnend mit /oder \bedeutet, dass der Pfad relativ zum root-Verzeichnis ist.
+      * Beginnt mit ~/oder ~\bedeutet, dass es relativ zur verarbeiteten Datei ist.
+      */
+      "savePath": "/dist/css",
+    },
+    {
+      "format": "compressed",
+      "extensionName": ".min.css",
+      "savePath": "/css",
+    }
+  ],
+  "liveSassCompile.settings.excludeList": [
+    "/**/node_modules/**",
+    "/.vscode/**"
+  ],
+  "liveSassCompile.settings.generateMap": true,
+  "liveSassCompile.settings.useNewCompiler": true,
+  "liveSassCompile.settings.autoprefix": ["defaults"],
+}
