@@ -1,0 +1,14 @@
+#team {
+	img {
+		height: 200px;
+		width: auto;
+		border-radius: 50%;
+	}
+
+	filter: grayscale(70%);
+	transition: filter 400ms ease-in-out;
+
+	&:hover {
+			filter: none;
+	}
+}

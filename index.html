@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,11 +11,357 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
 	<link rel="manifest" href="/site.webmanifest">
 	<!-- CSS -->
+	<link rel="stylesheet" href="css/custom.min.css">
+	<!-- AOS -->
+	<link rel="stylesheet" href="css/aos.css">
 </head>
-<body>
-	<main></main>
-	<header></header>
-	<nav></nav>
-	<footer></footer>
+
+<body class="d-flex flex-column">
+	<main>
+		<section id="time-contact" class="container">
+			<div class="row d-flex flex-column flex-lg-row align-items-center">
+				<div class="col">
+					<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+						<div class="carousel-indicators">
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+								class="active" aria-current="true" aria-label="Slide 1"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+								aria-label="Slide 2"></button>
+							<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+								aria-label="Slide 3"></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="images/clinic1.jpg" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="images/clinic2.jpg".jpg" class="d-block w-100" alt="...">
+							</div>
+							<div class="carousel-item">
+								<img src="images/clinic3.jpg" class="d-block w-100" alt="...">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+				</div>
+
+				<div class="col p-3">
+					<h2>Sprechzeiten</h2>
+					<p>
+						Montag: 07:30 - 12:00 Uhr & 13:00 - 15:00 Uhr <br>
+						Dienstag: 09:00 - 12:00 Uhr & 13:00 - 18:00 Uhr <br>
+						Mittwoch: 07:30 - 12:00 Uhr <br>
+						Donnerstag: 09:00 - 12:00 Uhr & 13:00 - 18:00 Uhr <br>
+						Freitag: 07:30 - 12:00 Uhr
+						und nach Vereinbarung (auch samstags)
+					</p>
+					<h2>Kontakt</h2>
+					<h6>Zahnartpraxis - Abcsefstraße 55 99999 Erfurt</h6>
+					<p>Tel.: +49 (0)361 225 26 26 <br>
+						Mail: zahnartpraxis@inErfurt.de</p>
+
+
+					<h2>Notdiensttelefon für Thüringen</h2>
+					<p>
+						Den Zahnärztlichen Notdienst können Sie unter Tel. 116117 erfragen.
+						Alternativ können Sie <a href="https://www.kzvth.de/notdienstsuche" target="_blank">die zahnärztliche Notdienstsuche der KZV Thüringen</a> nutzen.
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="offers">
+			<div class="container" data-aos="fade-up" data-aos-offset="400">
+				<h2> Unsere Angebote</h2>
+				<div class="row align-items-stretch justify-content-center">
+
+					<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;" >
+						<img src="images/primary_tooth_icon_154306.svg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Milchgebiss</h5>
+							<p class="card-text">Some quick example text to build on the card title</p>
+						</div>
+					</div>
+
+					<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+						<img src="images/hehy_tooth_icon_154327.svg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">professionelle Zahnreinigung</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk
+								of the card's content.</p>
+						</div>
+					</div>
+
+					<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+						<img src="images/tooth_filling_icon_154307.svg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Füllungstherapie</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk
+								of the card's content.</p>
+						</div>
+					</div>
+
+					<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+						<img src="images/wisdom_tooth_icon_154310.svg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Weisheitszahnentfernung</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk
+								of the card's content.</p>
+						</div>
+					</div>
+
+					<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+						<img src="images/dental_implant_icon_154314.svg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Zahnimplantat</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk
+								of the card's content.</p>
+						</div>
+					</div>
+
+					<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
+						<img src="images/dental_implant_icon_154314.svg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Card title</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk
+								of the card's content.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section id="team">
+			<div class="container">
+						<h2>Über uns</h2>
+						<h5>Wir sind Familienunternehmen seit 19XX von Generation zu Generation</h5>
+				<div class="row">
+					<div class="col">
+						<img src="/images/doctor4.jpg" alt="">
+						<p>
+							<strong>
+								Dr. med. dent. XXXXX XXXXX <br>
+								Zahnärztin <br>
+							</strong>
+							<br>
+							seit 2021	eigene Praxis in XXX <br>
+							2019	Promotion zur Dr. med. dent. <br>
+							2016 – 2020	angestellte Zahnärztin in XXX <br>
+							2014 – 2016	Assistenzzahnärztin in XXX <br>
+							2013	Staatsexamen an der XXX <br>
+						</p>
+					</div>
+					<div class="col">
+						<img src="/images/doctor1.jpg" alt="">
+						<p>
+							<strong>
+								Dr. med. dent. XXXXX XXXXX <br>
+								Zahnärztin <br>
+							</strong>
+							<br>
+							seit 2021	eigene Praxis in XXX <br>
+							2019	Promotion zur Dr. med. dent. <br>
+							2016 – 2020	angestellte Zahnärztin in XXX <br>
+							2014 – 2016	Assistenzzahnärztin in XXX <br>
+							2013	Staatsexamen an der XXX <br>
+						</p>
+					</div>
+					<div class="col">
+						<img src="/images/doctor2.jpg" alt="">
+						<p>
+							<strong>
+								Dr. med. dent. XXXXX XXXXX <br>
+								Zahnärztin <br>
+							</strong>
+							<br>
+							seit 2021	eigene Praxis in XXX <br>
+							2019	Promotion zur Dr. med. dent. <br>
+							2016 – 2020	angestellte Zahnärztin in XXX <br>
+							2014 – 2016	Assistenzzahnärztin in XXX <br>
+							2013	Staatsexamen an der XXX <br>
+						</p>
+					</div>
+					<div class="col">
+						<img src="/images/doctor3.jpg" alt="">
+						<p>
+							<strong>
+								Dr. med. dent. XXXXX XXXXX <br>
+								Zahnärztin <br>
+							</strong>
+							<br>
+							seit 2021	eigene Praxis in XXX <br>
+							2019	Promotion zur Dr. med. dent. <br>
+							2016 – 2020	angestellte Zahnärztin in XXX <br>
+							2014 – 2016	Assistenzzahnärztin in XXX <br>
+							2013	Staatsexamen an der XXX <br>
+						</p>
+					</div>
+
+				
+				</div>
+			</div>
+		</section>
+
+		<section id="contact">
+			<div class="container text-white">
+				<div class="row align-items-center justify-content-center">
+					<h1>Wir freuen uns auf Ihren Besuch</h1>
+				</div>
+                <u3 class="display-4">Kontaktiere uns</u3>
+                <div class="row">
+                    <!-- Formular -->
+                    <div class="col">
+                        <p>Für einfach dieses kurze Formular und wir melden uns in Lichtgeschwindigkeit bei Dir!</p>
+
+                        <form action="#" method="post">
+                            <div class="form-row">
+
+                                <div class="form-group">
+                                    <label for="firstname">Vorname</label>
+                                    <input type="text" name="firstname" id="firstname" class="form-control"
+                                    placeholder="Vorname">
+                                </div>
+
+                                 <div class="form-group">
+                                    <label for="lastname">Nachname</label>
+                                    <input type="text" name="lastname" id="lastname" class="form-control"
+                                    placeholder="Nachname">
+                                </div>
+
+                                 
+                            </div>
+
+                            <div class="form-group">
+                                    <label for="email">Email-Adresse<sup class="text-muted">*</sup></label>
+                                    <input type="email" name="email" id="email" class="form-control"
+                                    placeholder="Email">
+                                    <small class="form-text text-muted">Wir teilen deine Email-Adresse niemals, mit niemandem!</small>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message">Nachricht</label>
+                                    <textarea name="message" id="message" rows="5" class="form-control" placeholder="Deine Nachricht an uns..."></textarea>
+                                    <small class="form-text text-muted"><sup class="text-muted">* Pflichtfelder</sup></small>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-outline-primary">Absenden</button>
+                        </form>
+                    </div>
+                    <!-- Sidebar -->
+                    <aside class="col">
+                        <h3>Komme in Kontakt</h3>
+                        <p>Für Support und weitere Fragen: <br>
+                        Schreibe uns ein Mail an <a href="mailto:mail@photastic.com">mail@photastic.com</a></p>
+                        <h3>Standorte</h3>
+                        <address>
+                            <b>Photastic GmbH</b><br>
+                            Hauptstraße 38 <br>
+                            87654 Stadt <br>
+                            Deutschland
+                        </address>
+                        <address>
+                            <b>Photastic Inc.</b><br>
+                            795 E Dragram <br>
+                            Seattle WA 98102 <br>
+                            USA
+                        </address>
+                    </aside>
+                </div>
+
+            </div>
+		</section>
+	</main>
+
+	<header id="page-header" class="order-first">
+		<section class="text-primary">
+			<div class="container">
+				<div class="row flex justify-content-center align-items-center">
+					<div class="col col-lg-8 py-5">
+						<h1 class="mb-4">Wir kümmern uns um Ihr Lächeln.</h1>
+					<p>
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+						<path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/></svg>
+						Erfurt und Umgebung</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</header>
+
+	<nav class="navbar order-first fixed-top navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+
+				<span class="mr-auto">
+					<span><img src="images/dental-care-logo.png" height="45px"></span>
+					<a class="navbar-brand" href="#"><strong>Zahn</strong>artpraxis</a>
+				</span>
+				<span class="mx-auto ">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+							</li>
+							
+							<li class="nav-item">
+								<a class="nav-link" href="#">Sprechzeiten</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">Über uns</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="#">Kontakt</a>
+							</li>
+							
+						</ul>
+					</div>
+				</span>
+				<span class="ml-auto">
+					<ul class="nav">
+						<li><a class="nav-item nav-link" href="#">DE</a></li>
+						<li><a class="nav-item nav-link disabled" href="#">EN</a></li>
+						<li><a class="nav-item nav-link disabled" href="#">TH</a></li>
+					</ul>
+				</span>
+	
+		</div>
+	</nav>
+
+	<footer id="page-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<p>© 2025 Zahnartpraxis</p>
+				</div>
+			</div>
+			<div class="row">
+
+			</div>
+		</div>
+	</footer>
+	
+	<!-- AOS JavaScript -->
+	<script src="js/aos.js"></script>
+	<!-- Custom JavaScript -->
+	<script src="js/custom.js"></script>
+	<!-- Bootstrap Javascript -->
+	<script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

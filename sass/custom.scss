@@ -1,0 +1,22 @@
+/* === custom.scss === */
+
+// überschreibene Variablen auf Bootstrap
+$primary: #003049;
+$secondary: #669bbc;
+
+section {
+	padding: 6rem 0;
+}
+
+
+// Einbindung von Bootstrap und benutzerdefiniertes SCSS
+@import "../bootstrap/scss/bootstrap";
+//
+@import "page-header";
+@import "team";
+@import "offers";
+@import "page-footer";
+@import "contact";
+
+
+
