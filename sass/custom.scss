@@ -4,19 +4,32 @@
 $primary: #003049;
 $secondary: #669bbc;
 
+// bootstrap/scss/_variables.scss Zeile 654
+$headings-font-family: 'Open Sans', sans-serif;
 section {
 	padding: 6rem 0;
+}
+
+.line {
+  width: 100%;
+  height: 0;
+  border: 2px solid $secondary;
+  margin: 3px;
+  display:inline-block;
 }
 
 
 // Einbindung von Bootstrap und benutzerdefiniertes SCSS
 @import "../bootstrap/scss/bootstrap";
 //
+@import "default";
 @import "page-header";
 @import "team";
 @import "offers";
 @import "page-footer";
 @import "contact";
+@import "backtotop";
+
 
 
 

@@ -7,7 +7,7 @@ document.addEventListener("scroll", _=> {
 	} else {
 		bttb.style.opacity = "0";
 	}
-});
+}); 
 
 /* Scroll Animationen mit AOS */
 AOS.init({

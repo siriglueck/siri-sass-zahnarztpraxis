@@ -4,6 +4,14 @@ section {
   padding: 6rem 0;
 }
 
+.line {
+  width: 100%;
+  height: 0;
+  border: 2px solid #669bbc;
+  margin: 3px;
+  display: inline-block;
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -222,6 +230,7 @@ hr {
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: var(--bs-heading-color);
@@ -11970,6 +11979,35 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+h1, .h1 {
+  color: #003049;
+}
+
+h2, .h2 {
+  color: #003049;
+}
+
+h3, .h3 {
+  color: #003049;
+}
+
+h4, .h4 {
+  color: #003049;
+}
+
+h5, .h5 {
+  color: #003049;
+}
+
+h6, .h6 {
+  color: #003049;
+}
+
+.lead {
+  font-size: 1.375rem;
+  color: #003049;
+}
+
 #page-header {
   min-height: 720px;
   background: transparent url("../images/woman-smile-1024x683.jpeg") no-repeat top center;
@@ -11977,21 +12015,20 @@ textarea.form-control-lg {
   background-position: bottom right;
   padding: 150px 30px;
 }
-
-#team {
-  filter: grayscale(70%);
-  transition: filter 400ms ease-in-out;
+#page-header .text-shadow {
+  text-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
 }
+
 #team img {
   height: 200px;
   width: auto;
   border-radius: 50%;
-}
-#team:hover {
-  filter: none;
+  margin: 2rem 0;
 }
 
 #offers {
+  min-height: 720px;
+  background-image: url("../images/bg-1jpg");
   background-color: #669bbc;
 }
 #offers .card {
@@ -12008,4 +12045,11 @@ textarea.form-control-lg {
 
 #contact {
   background-color: #003049;
+}
+
+#backtotop {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  transition: opacity 600ms ease-in-out;
 }/*# sourceMappingURL=custom.css.map */
