@@ -1,15 +1,13 @@
 #offers {
-	min-height: 720px;
-	background-image: url("../images/bg-1jpg");
-	background-color: #669bbc;
+  min-height: 720px;
+  background-color: #669bbc;
 
+  .card {
+    margin: 10px 20px;
+  }
 
-	.card {
-		margin: 10px 20px;
-	}
-
-	img {
-		height: 200px;
-		width: 200px;
-	}
+  img {
+    height: 200px;
+    width: 200px;
+  }
 }
